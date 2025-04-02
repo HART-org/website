@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  --background-gradient: linear-gradient(rgb(233, 208, 214), rgb(224, 182, 193));
+  --background-gradient: linear-gradient(rgb(211, 167, 189), rgb(212, 183, 199));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,7 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
