@@ -3,8 +3,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { Button } from 'react-bootstrap';
 
-import { FaHandHoldingHeart, FaDog, FaHome } from "react-icons/fa";
+import { FaHandHoldingHeart, FaDog, FaHome, FaFacebookSquare, FaEnvelope } from "react-icons/fa";
 
 import logo from "/src/assets/logo_small.png";
 
@@ -32,9 +33,12 @@ function MyNavbar() {
             <Navbar.Brand href="/" className="d-flex">
                 <img src={logo} className="img-logo" alt="brand" />
             </Navbar.Brand>
-            <h1 className='nav-title'>
-                HART
-            </h1>
+            <Button href='https://www.facebook.com/homelessangelsrescueteam' target='_blank' style={{ marginRight:'10px', marginLeft:'10px'}} className="social-btn">
+                <FaFacebookSquare size={30} style={{ verticalAlign: "middle", marginBottom: '5px' }} />
+            </Button>
+            <button className="social-btn">
+                <FaEnvelope size={30} style={{ verticalAlign: "middle", marginBottom: '5px' }} />
+            </button>
             
             <Navbar.Toggle
                 aria-controls="responsive-navbar-nav"
