@@ -6,31 +6,11 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  height: 20em;
+  padding: 1em;
+  background-color: white;
+  border-radius:20px;
+  overflow:hidden;
 }
 
 .card {
@@ -131,7 +111,6 @@ Navbar Section
 */
 
 .help-page-row {
-  color: white !important;
   margin-top: 100px !important;
   margin-left: 5vh !important;
   margin-right: 5vh !important;
@@ -151,12 +130,14 @@ Navbar Section
 }
 
 .content-title {
+  color: rgb(92, 82, 87) !important;
   font-size: 2em !important;
   font-weight: 600 !important;
   margin-bottom: 10px !important;
 }
 
 .content-text {
+  color: rgb(92, 82, 87) !important;
   font-size: 1.2em !important;
   font-weight: 400 !important;
   margin-bottom: 10px !important;
@@ -183,7 +164,6 @@ Navbar Section
 */
 
 .about-body{
-  color: white !important;
   margin-top: 100px !important;
   margin-left: 5vh !important;
   margin-right: 5vh !important;
@@ -192,7 +172,7 @@ Navbar Section
 }
 
 .body-link{
-  color: white !important;;
+  color: rgb(114, 102, 108) !important;;
 }
 
 .about-img{

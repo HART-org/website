@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   --background-gradient: linear-gradient(rgb(211, 140, 175), rgb(207, 152, 182));
-  --background-color: rgb(218, 152, 184);
+  --background-color: rgb(243, 233, 239);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,8 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  /*background-color: var(--background-color) !important;*/
-  background-image: var(--background-gradient);
+  background-color: var(--background-color) !important;
+  /*background-image: var(--background-gradient);*/
 }
 
 h1 {
