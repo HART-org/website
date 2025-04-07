@@ -36,9 +36,6 @@ function MyNavbar() {
             <Button href='https://www.facebook.com/homelessangelsrescueteam' target='_blank' style={{ marginRight:'10px', marginLeft:'10px'}} className="social-btn">
                 <FaFacebookSquare size={30} style={{ verticalAlign: "middle", marginBottom: '5px' }} />
             </Button>
-            <Button href='https://www.facebook.com/homelessangelsrescueteam' target='_blank' style={{ marginRight:'10px', marginLeft:'10px'}} className="social-btn">
-                <FaEnvelope size={30} style={{ verticalAlign: "middle", marginBottom: '5px' }} />
-            </Button>
             
             <Navbar.Toggle
                 aria-controls="responsive-navbar-nav"

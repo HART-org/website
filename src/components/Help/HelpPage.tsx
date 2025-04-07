@@ -15,12 +15,12 @@ const HelpPage = () => {
                 <Row className="help-page-row justify-content-center flex-column flex-md-row align-items-start" style={{ gap: '20px' }}>
                     <Col className="text-center">
                         <p className='content-title'>Are you in Texas?</p>
-                        <p className='content-text'>We need fosters! If you would like to learn more about fostering an angel or helping with transports, please reach out to us by sending a message through <a href='https://www.facebook.com/homelessangelsrescueteam'>our Facebook page</a>.</p>
+                        <p className='content-text'>We need fosters! If you would like to learn more about fostering an angel or helping with transports, please reach out to us by sending a message through <a href='https://www.facebook.com/homelessangelsrescueteam' target='_blank'>our Facebook page</a>.</p>
                         <img className='help-img' src={foster_img} alt="Foster Request" />
                     </Col>
                     <Col className="text-center">
                         <p className='content-title'>Are you in Rhode Island?</p>
-                        <p className='content-text'>If you live in Rhode Island and have children ages 8+, reach out <a href='https://www.smalldogrescuene.org/'>Small Dog Rescue of New England</a></p>
+                        <p className='content-text'>If you live in Rhode Island and have children ages 8+, reach out <a href='https://www.smalldogrescuene.org/get-involved/foster-application/' target='_blank'>Small Dog Rescue of New England</a></p>
                         <img className='help-img' src={foster_img2} alt="Foster Request" />
                     </Col>
                     <Col className="text-center">
