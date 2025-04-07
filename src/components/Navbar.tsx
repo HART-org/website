@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Button } from 'react-bootstrap';
 
-import { FaHandHoldingHeart, FaDog, FaHome, FaFacebookSquare, FaEnvelope } from "react-icons/fa";
+import { FaHandHoldingHeart, FaDog, FaHome, FaFacebookSquare } from "react-icons/fa";
 
 import logo from "/src/assets/logo_small.png";
 
