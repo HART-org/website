@@ -5,8 +5,14 @@
   text-align: center;
 }
 
+@media (max-width: 550px) {
+  .logo{
+    width: 85vw !important;
+  }
+}
+
 .logo {
-  height: 20em;
+  width: 500px;
   padding: 1em;
   background-color: white;
   border-radius:20px;
