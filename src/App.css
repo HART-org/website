@@ -159,6 +159,13 @@ Navbar Section
   overflow:hidden;
 }
 
+.help-img {
+  width: 350px !important;
+  height: auto !important;
+  border-radius:20px;
+  overflow:hidden;
+}
+
 /*
   About Page
 */
@@ -175,7 +182,14 @@ Navbar Section
   color: rgb(114, 102, 108) !important;;
 }
 
+
 .about-img{
   width: 500px !important;
   height: auto !important;
+}
+
+@media (max-width: 550px) {
+  .about-img{
+    width: 85vw !important;
+  }
 }
