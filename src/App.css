@@ -5,20 +5,6 @@
   text-align: center;
 }
 
-@media (max-width: 550px) {
-  .logo{
-    width: 85vw !important;
-  }
-}
-
-.logo {
-  width: 500px;
-  padding: 1em;
-  background-color: white;
-  border-radius:20px;
-  overflow:hidden;
-}
-
 .card {
   padding: 2em;
 }
@@ -117,7 +103,59 @@ Navbar Section
 }
 
 /*
-  Help Page
+Home Page
+*/
+
+@media (max-width: 550px) {
+  .logo{
+    width: 100% !important;
+  }
+}
+
+.logo {
+  width: 500px;
+  padding: 1em;
+  background-color: white;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.home-img {
+  max-width: 500px !important;
+  width: 500px !important;
+  height: auto;
+  border-radius:5px;
+  overflow:hidden;
+}
+
+.home-about-div {
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+.home-about-text {
+  margin-left: 20px !important;
+  width: 300px !important;
+  text-align: left !important;
+}
+
+@media (max-width: 768px) {
+  .home-about-div {
+    flex-direction: column !important;
+  }
+  .home-about-text {
+    margin-left: 0px !important;
+    margin-top: 20px !important;
+    width: 100% !important;
+  }
+  .home-img {
+    width: 100% !important;
+  }
+}
+
+/*
+Help Page
 */
 
 .help-page-body {
@@ -191,7 +229,7 @@ Navbar Section
 }
 
 /*
-  About Page
+About Page
 */
 
 .about-body{
