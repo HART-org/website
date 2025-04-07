@@ -15,7 +15,7 @@ const HelpPage = () => {
                 <Row className="help-page-row justify-content-center flex-column flex-md-row align-items-start" style={{ gap: '20px' }}>
                     <Col className="text-center">
                         <p className='content-title'>Are you in Texas?</p>
-                        <p className='content-text'>We need fosters! If you would like to learn more about fostering an angel or helping with transports, please reach out to us by sending a message through our Facebook page.</p>
+                        <p className='content-text'>We need fosters! If you would like to learn more about fostering an angel or helping with transports, please reach out to us by sending a message through <a href='https://www.facebook.com/homelessangelsrescueteam'>our Facebook page</a>.</p>
                         <img className='help-img' src={foster_img} alt="Foster Request" />
                     </Col>
                     <Col className="text-center">
