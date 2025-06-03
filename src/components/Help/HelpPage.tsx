@@ -5,6 +5,7 @@ import { FaPaypal, FaGift } from "react-icons/fa";
 import paypal_qr from '/src/assets/paypal_qrcode.jpg';
 import foster_img from '/src/assets/foster-request.jpg';
 import foster_img2 from '/src/assets/foster-request2.jpg';
+import foster_app from '/Adoption-Application-Dog-HART.pdf'
 
 /*add align-items-start to row classnames to align to top.*/
 const HelpPage = () => {
@@ -15,12 +16,12 @@ const HelpPage = () => {
                 <Row className="help-page-row justify-content-center flex-column flex-md-row align-items-start" style={{ gap: '20px' }}>
                     <Col className="text-center">
                         <p className='content-title'>Are you in Texas?</p>
-                        <p className='content-text'>We need fosters! If you would like to learn more about fostering an angel or helping with transports, please reach out to us by sending a message through <a href='https://www.facebook.com/homelessangelsrescueteam' target='_blank'>our Facebook page</a>.</p>
+                        <p className='content-text'>We need fosters! To learn about fostering an angel or helping with transports, please send us a message through <a href='https://www.facebook.com/homelessangelsrescueteam' target='_blank'>our Facebook page</a>. Apply to become a foster by completing <a href={foster_app} target='_blank'>this form</a> and submitting it to the listed email.</p>
                         <img className='help-img' src={foster_img} alt="Foster Request" />
                     </Col>
                     <Col className="text-center">
                         <p className='content-title'>Are you in Rhode Island?</p>
-                        <p className='content-text'>If you live in Rhode Island and have children ages 8+, reach out <a href='https://www.smalldogrescuene.org/get-involved/foster-application/' target='_blank'>Small Dog Rescue of New England</a></p>
+                        <p className='content-text'>If you live in Rhode Island and have children ages 8+, reach out to <a href='https://www.smalldogrescuene.org/get-involved/foster-application/' target='_blank'>Small Dog Rescue of New England</a></p>
                         <img className='help-img' src={foster_img2} alt="Foster Request" />
                     </Col>
                     <Col className="text-center">
