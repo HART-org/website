@@ -159,7 +159,7 @@ Help Page
 */
 
 .help-page-body {
-  margin-top: 50px !important;
+  margin-top: 70px !important;
   margin-left: 5vh !important;
   margin-right: 5vh !important;
   display: flex !important;
@@ -233,7 +233,7 @@ About Page
 */
 
 .about-body{
-  margin-top: 100px !important;
+  margin-top: 70px !important;
   margin-left: 5vh !important;
   margin-right: 5vh !important;
   display: flex !important;

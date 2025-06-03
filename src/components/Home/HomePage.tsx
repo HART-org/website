@@ -7,7 +7,7 @@ import home_img from '/src/assets/home.jpg'
 const HomePage = () => {
 
     return (
-        <div style={{ marginTop:"100px" }}>
+        <div style={{ marginTop:"70px" }}>
           <img style={{ marginBottom:"20px" }} src={logoimg} alt="Logo" className="logo" id='main-logo' />
           <div className='home-about-div'>
             <img src={home_img} alt="Home" className='home-img' />
