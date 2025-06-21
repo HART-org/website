@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import { Button } from 'react-bootstrap';
 
 import { FaHandHoldingHeart, FaDog, FaHome, FaFacebookSquare } from "react-icons/fa";
+import { TbDog } from "react-icons/tb";
 
 import logo from "/src/assets/logo_small.png";
 
@@ -27,7 +28,7 @@ function MyNavbar() {
         <Navbar
         expanded={expand}
         fixed="top"
-        expand="md"
+        expand="lg"
         className={navColor ? "sticky" : "navbar"}
         >
             <Navbar.Brand href="/" className="d-flex">
@@ -58,6 +59,12 @@ function MyNavbar() {
                     <Nav.Item>
                         <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
                             <FaDog size={20} style={{ verticalAlign: "bottom", marginBottom: "3px" }} /> About
+                        </Nav.Link>
+                    </Nav.Item>
+
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/happytails" onClick={() => updateExpanded(false)}>
+                            <TbDog size={20} style={{ verticalAlign: "bottom", marginBottom: "3px" }} /> Happy Tails
                         </Nav.Link>
                     </Nav.Item>
 

@@ -184,7 +184,7 @@ Help Page
   color: rgb(92, 82, 87) !important;
   font-size: 1.8em !important;
   font-weight: 600 !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 10px;
 }
 
 .content-text {
@@ -256,4 +256,24 @@ About Page
   .about-img{
     width: 85vw !important;
   }
+}
+
+/*
+Happy Tails
+*/
+
+.tails-tale{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.tails-text{
+  max-width: 300px !important;
+}
+
+.tails-img{
+  max-width: 400px !important;
+  height: auto !important;
+  margin-bottom: 10px !important;
 }
