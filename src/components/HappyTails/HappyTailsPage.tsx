@@ -8,7 +8,7 @@ import moose from '/src/assets/HappyTails/moose.jpg';
 
 const AboutPage = () => {
     return (
-        <div style={{ marginTop:"70px" }}>
+        <div className='page-body'>
             <p className='content-title' style={{marginBottom:'30px'}}>Happy Tails from some of our rescues!</p>
             <Row className='tails-tale'>
                 <img src={scottie} alt="Scottie" className="tails-img" />

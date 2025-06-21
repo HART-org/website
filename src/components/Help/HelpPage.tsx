@@ -10,7 +10,7 @@ import foster_app from '/Adoption-Application-Dog-HART.pdf'
 /*add align-items-start to row classnames to align to top.*/
 const HelpPage = () => {
     return (
-        <div className='help-page-body'>
+        <div className='page-body help-page-body'>
             <Col>
                 <p style={{ marginBottom:'50px' }} className='content-text'>Do you have a HART for helping? Homeless Angels Rescue Team (HART) relies on the kindness and donations of friends and strangers around the country to help get these little angels off the streets and into loving, forever homes. </p>
                 <Row className="help-page-row justify-content-center flex-column flex-md-row align-items-start" style={{ gap: '20px' }}>

@@ -8,7 +8,7 @@ import relinquish_form from '/Relinquish-Form-Dog-HART.pdf'
 const HomePage = () => {
 
     return (
-        <div style={{ marginTop:"70px" }}>
+        <div className='page-body'>
           <img style={{ marginBottom:"20px" }} src={logoimg} alt="Logo" className="logo" id='main-logo' />
           <div className='home-about-div'>
             <img src={home_img} alt="Home" className='home-img' />

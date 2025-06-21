@@ -21,6 +21,10 @@ a {
   color: rgb(92, 33, 70) !important;
 }
 
+.page-body {
+  margin-top: 70px !important;
+}
+
 /*
 Navbar Section
 */
@@ -159,7 +163,6 @@ Help Page
 */
 
 .help-page-body {
-  margin-top: 70px !important;
   margin-left: 5vh !important;
   margin-right: 5vh !important;
   display: flex !important;
@@ -233,7 +236,6 @@ About Page
 */
 
 .about-body{
-  margin-top: 70px !important;
   margin-left: 5vh !important;
   margin-right: 5vh !important;
   display: flex !important;
