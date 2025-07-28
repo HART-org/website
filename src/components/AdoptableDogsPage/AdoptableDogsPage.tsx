@@ -1,23 +1,34 @@
 import { useEffect } from 'react';
 
+// Apparently nexeccary to avoid TypeScript errors regarding FB
+declare global {
+  interface Window {
+    FB?: {
+      XFBML: {
+        parse: () => void;
+      };
+    };
+  }
+}
+
 const AdoptableDogsPage = () => {
 
     useEffect(() => {
         // Load Facebook SDK
         if (!window.FB) {
-        const script = document.createElement('script');
-        script.async = true;
-        script.defer = true;
-        script.crossOrigin = 'anonymous';
-        script.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0';
-        document.body.appendChild(script);
+            const script = document.createElement('script');
+            script.async = true;
+            script.defer = true;
+            script.crossOrigin = 'anonymous';
+            script.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0';
+            document.body.appendChild(script);
         } else {
-        window.FB.XFBML.parse();
+            window.FB.XFBML.parse();
         }
     }, []);
 
     return (
-        
+        // Page with a Facebook media set embed
         <div className="page-body" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <p className='adopt-title-text'>
                 Visit our album on <button 
