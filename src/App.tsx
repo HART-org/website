@@ -11,10 +11,10 @@ import HomePage from './components/Home/HomePage';
 import AboutPage from './components/About/AboutPage';
 import HappyTails from './components/HappyTails/HappyTailsPage';
 import HelpPage from './components/Help/HelpPage';
+import AdoptableDogsPage from './components/AdoptableDogsPage';
 
 function App() {
   
-
   return (
     <Router>
       <div className='App'>
@@ -24,7 +24,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/happytails" element={<HappyTails />} />
-        <Route path="/help" element={<HelpPage/>} />
+        <Route path="/adoptabledogs" element={<AdoptableDogsPage />} />
+        <Route path="/help" element={<HelpPage />} />
       </Routes>
     </Router>
 

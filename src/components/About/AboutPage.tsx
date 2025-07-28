@@ -17,7 +17,7 @@ const AboutPage = () => {
             </p>
             <img src={xioimg} alt="Xio" className='about-img' />
             <p className='content-text'>
-                Born and raised on the scenic seacoast of New Hampshire, Jen has always had a deep love for animals and a natural instinct to help those in need. Over the years, she has welcomed several dogs into her home—rehoming three from friends and family, and later adopting her beloved Frankie from Homeless Angels HART.
+                Born and raised on the scenic seacoast of New Hampshire, Jen has always had a deep love for animals and a natural instinct to help those in need. Over the years, she has welcomed several dogs into her home—rehoming three from friends and family, and later adopting her beloved Frankie from HART.
                 <br/><br/>Driven by compassion and a strong sense of purpose, Jen is an active volunteer within the New Hampshire and Massachusetts rescue community and serves as a dedicated remote volunteer with HARTAllCreatures. Her strong desire to help and support Frankie's rescue group, and her relationship with the two directors at the time, gained her one of our director positions on the board. Her unwavering love and dedication to dogs in need have made her an essential part of the rescue mission.
                 <br/><br/>In close partnership with HART’s founder, Xio, Jen helps bridge the gap between Texas and New England—supporting social media, fundraising,  fostering connections, and expanding opportunities for rescued animals to find their forever homes across state lines.
                 <br/><br/>Jen’s work reflects her heartfelt belief that every dog deserves a chance, no matter where they come from.

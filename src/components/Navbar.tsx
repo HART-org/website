@@ -5,9 +5,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Button } from 'react-bootstrap';
 
-import { FaHandHoldingHeart, FaDog, FaHome, FaFacebookSquare } from "react-icons/fa";
+import { FaInfoCircle, FaHandHoldingHeart, FaDog, FaFacebookSquare } from "react-icons/fa";
 import { TbDog } from "react-icons/tb";
-
+import { GiDogHouse } from "react-icons/gi";
 import logo from "/src/assets/logo_small.png";
 
 function MyNavbar() {
@@ -52,19 +52,25 @@ function MyNavbar() {
                 <Nav className="ms-auto" defaultActiveKey="#home">
                     <Nav.Item>
                         <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                            <FaHome size={20} style={{ verticalAlign: "bottom", marginBottom: "3px" }} /> Home
+                            <GiDogHouse size={20} style={{ verticalAlign: "bottom", marginBottom: "3px" }} /> Home
                         </Nav.Link>
                     </Nav.Item>
 
                     <Nav.Item>
                         <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
-                            <FaDog size={20} style={{ verticalAlign: "bottom", marginBottom: "3px" }} /> About
+                            <FaInfoCircle size={20} style={{ verticalAlign: "bottom", marginBottom: "3px" }} /> About
                         </Nav.Link>
                     </Nav.Item>
 
                     <Nav.Item>
                         <Nav.Link as={Link} to="/happytails" onClick={() => updateExpanded(false)}>
                             <TbDog size={20} style={{ verticalAlign: "bottom", marginBottom: "3px" }} /> Happy Tails
+                        </Nav.Link>
+                    </Nav.Item>
+
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/adoptabledogs" onClick={() => updateExpanded(false)}>
+                            <FaDog size={20} style={{ verticalAlign: "bottom", marginBottom: "3px" }} /> Adoptable Dogs
                         </Nav.Link>
                     </Nav.Item>
 
